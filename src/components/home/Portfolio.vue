@@ -91,6 +91,40 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img
+              src="../../assets/img/portfolio/portfolio.png"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="portfolio-info">
+              <h4>My Porfolio</h4>
+              <p>
+                <a
+                  href="https://my-portfolio-gamma-three-65.vercel.app/"
+                  target="_blank"
+                  >Visit site</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img
+              src="../../assets/img/portfolio/dwellys.png"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="portfolio-info">
+              <h4>E-commerce</h4>
+              <p>
+                <a href="https://dwellys.com" target="_blank">Visit site</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
