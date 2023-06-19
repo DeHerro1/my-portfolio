@@ -115,7 +115,7 @@
             <img
               src="../../assets/img/portfolio/dwellys.png"
               class="img-fluid"
-              alt=""
+              alt="dwellys"
             />
             <div class="portfolio-info">
               <h4>E-commerce</h4>
