@@ -113,9 +113,9 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img
-              src="../../assets/img/portfolio/dwellys.png"
+              src="../../assets/img/portfolio/dwelly.png"
               class="img-fluid"
-              alt=""
+              alt="dwellys"
             />
             <div class="portfolio-info">
               <h4>E-commerce</h4>
