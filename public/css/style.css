@@ -477,28 +477,29 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
+.skills {
+  /* height: 60px; */
+
   background: none;
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 
-.skills .progress .skill {
+.skills .skill {
   padding: 10px;
   margin: 0;
   text-transform: uppercase;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   font-weight: 600;
   border-radius: 10px;
-
-  background-color: #45505b;
+  /* background-color: #45505b; */
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .skills .progress .skill .val {
-  float: right;
+  /* float: right; */
   font-style: normal;
 }
 
@@ -1067,16 +1068,16 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .mymessage {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .mymessage .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contact .mymessage .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1085,12 +1086,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .mymessage .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
-  display: none;
+.contact .mymessage .sent-message {
   color: #fff;
   background: #18d26e;
   text-align: center;
@@ -1098,14 +1098,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .mymessage .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .mymessage .loading:before {
   content: '';
   display: inline-block;
   border-radius: 50%;
@@ -1117,22 +1117,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .mymessage input,
+.contact .mymessage textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .mymessage input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .mymessage textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .mymessage button {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
@@ -1141,7 +1141,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .mymessage button:hover {
   background: #0678e3;
 }
 

@@ -16,8 +16,13 @@
             class="twitter"
             ><i class="bx bxl-twitter"></i
           ></a>
-          <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
-          <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+          <a href="tel:+233556031977" class="facebook"
+            ><i class="bx bxs-phone"></i
+          ></a>
+
+          <a href="https://wa.me/+233556031977" class="instagram"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
           <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
           <a
             href="https://www.linkedin.com/in/awal-rabiu-2548a81a7"

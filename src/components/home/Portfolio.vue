@@ -26,24 +26,6 @@
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img
-              src="../../assets/img/portfolio/accessgroup.png"
-              class="img-fluid"
-              alt=""
-            />
-            <div class="portfolio-info">
-              <h4>Security and Shipment Tracking Site</h4>
-              <p>
-                <a href="https://accessgroupsecurity.com/" target="_blank"
-                  >Visit site</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img
@@ -52,7 +34,7 @@
               alt=""
             />
             <div class="portfolio-info">
-              <h4>E-commerce website</h4>
+              <h4>E-commerce</h4>
               <p>
                 <a href="https://wookin.com.gh/" target="_blank">Visit site</a>
               </p>
@@ -84,7 +66,7 @@
               alt=""
             />
             <div class="portfolio-info">
-              <h4>Regulatory commission</h4>
+              <h4>Regulatory Commission</h4>
               <p>
                 <a href="https://pcsrc.gov.gh/" target="_blank">Visit site</a>
               </p>
@@ -121,6 +103,23 @@
               <h4>E-commerce</h4>
               <p>
                 <a href="https://dwellys.com" target="_blank">Visit site</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img
+              src="../../assets/img/portfolio/accessgroup.png"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="portfolio-info">
+              <h4>Security and Shipment Tracking Site</h4>
+              <p>
+                <a href="https://accessgroupsecurity.com/" target="_blank"
+                  >Visit site</a
+                >
               </p>
             </div>
           </div>

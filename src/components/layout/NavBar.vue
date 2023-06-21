@@ -2,7 +2,7 @@
   <div>
     <!-- ======= Mobile nav toggle button ======= -->
     <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    <!-- <i class="bi bi-list mobile-nav-toggle d-lg-none"></i> -->
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
       <nav id="navbar" class="navbar nav-menu">
@@ -17,11 +17,11 @@
               ><i class="bx bx-user"></i> <span>About</span></a
             >
           </li>
-          <!-- <li>
-            <a href="#resume" class="nav-link scrollto"
-              ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+          <li>
+            <a href="#skills" class="nav-link scrollto"
+              ><i class="bx bx-file-blank"></i> <span>Skills</span></a
             >
-          </li> -->
+          </li>
           <li>
             <a href="#portfolio" class="nav-link scrollto"
               ><i class="bx bx-book-content"></i> <span>Portfolio</span></a

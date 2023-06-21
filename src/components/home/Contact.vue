@@ -30,17 +30,13 @@
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0">
-          <form
-            action="forms/contact.php"
-            method="post"
-            role="form"
-            class="php-email-form"
-          >
+          <form method="#" role="form" class="mymessage" @submit="sendMessage">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input
                   type="text"
                   name="name"
+                  :value="name"
                   class="form-control"
                   id="name"
                   placeholder="Your Name"
@@ -52,6 +48,7 @@
                   type="email"
                   class="form-control"
                   name="email"
+                  :value="email"
                   id="email"
                   placeholder="Your Email"
                   required
@@ -60,6 +57,7 @@
             </div>
             <div class="form-group mt-3">
               <input
+                :value="subject"
                 type="text"
                 class="form-control"
                 name="subject"
@@ -72,6 +70,7 @@
               <textarea
                 class="form-control"
                 name="message"
+                :value="message"
                 rows="5"
                 placeholder="Message"
                 required
@@ -80,7 +79,7 @@
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">
+              <div v-if="isSent" class="sent-message">
                 Your message has been sent. Thank you!
               </div>
             </div>
@@ -94,3 +93,20 @@
   </section>
   <!-- End Contact Section -->
 </template>
+<script setup lang="ts">
+import { ref, computed } from 'vue';
+import { toast } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css';
+
+const name = ref('');
+const email = ref('');
+const subject = ref('');
+const message = ref('');
+
+const isSent = ref(false);
+const sendMessage = () => {
+  toast.success('Message Sent!', {
+    autoClose: 2000,
+  });
+};
+</script>
