@@ -6,8 +6,7 @@
         <h1>Awal Rabiu</h1>
         <p>
           I'm a
-          <span class="typed"> Frontend Developer</span>
-          <!-- data-typed-items="Designer, Developer, Freelancer, Photographer" -->
+          <span class="typed"> Software Developer</span>
         </p>
         <div class="social-links">
           <a
