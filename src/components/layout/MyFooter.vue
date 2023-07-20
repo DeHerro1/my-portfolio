@@ -4,7 +4,7 @@
     <footer id="footer">
       <div class="container">
         <h3>Awal Rabiu</h3>
-        <p>I'm code hero and this is my personal portfolio</p>
+        <p>I'm code_hero and this is my personal portfolio</p>
         <div class="social-links">
           <a href="https://twitter.com/AwalRabiu3?s=09" class="twitter"
             ><i class="bx bxl-twitter"></i

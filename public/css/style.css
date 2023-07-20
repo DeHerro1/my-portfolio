@@ -113,6 +113,10 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
+#hero .container {
+  z-index: 99;
+}
+
 #hero p span {
   color: #0563bb;
   letter-spacing: 1px;
