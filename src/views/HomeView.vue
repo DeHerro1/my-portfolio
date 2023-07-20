@@ -10,7 +10,6 @@ import Footer from '../components/layout/MyFooter.vue';
 
 <template>
   <main>
-    <NavBar />
     <Hero />
     <About />
     <Skills />
