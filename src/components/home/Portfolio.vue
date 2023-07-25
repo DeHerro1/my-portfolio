@@ -36,7 +36,7 @@
             <div class="portfolio-info">
               <h4>E-commerce</h4>
               <p>
-                <a href="https://wookin.com.gh/" target="_blank">Visit site</a>
+                <a href="https://wookein.com" target="_blank">Visit site</a>
               </p>
             </div>
           </div>
